@@ -14,7 +14,9 @@
                     Asesor</h1>
         <img src="images/logo.png" style="width: 90px; height: 90px;" alt="">
     </header>
-
+    <div class="textcenter">
+        <button class="button" onclick="bajar()">Contacto</button>
+    </div>
     <div class="main">
         <div class="title">
             <h2>Si te gustaría generar ingresos mientras compras <br class="nophone"> tus productos de canasta básica,<br class="nophone"> estás en el lugar correcto.<br class="nophone"> ¡Y te enseñaré cómo hacerlo!</h2>            
@@ -33,6 +35,8 @@
             </div>
         </section>
         
+    </div>
+    <div class="ces">
         <footer class="footerimp">
             <h1 class="textcenter">Contáctenos</h1>
             <div class="border">
@@ -44,12 +48,19 @@
                 </div>
             </div>
         </footer>
+        <div class="footerreal">
+            <p class="textcenter">&copy; 2021 | Derechos Reservados</p>
+        </div>
     </div>
-
-    <div class="footerreal">
-        <p class="textcenter">&copy; 2021 | Derechos Reservados</p>
-    </div>
-
+    <script>
+        function bajar() {
+            window.scroll({
+            top: 1000,
+            left: 0,
+            behavior: 'smooth'
+        });
+        }
+    </script>
     <!-- Archivo Script Fundamental NO eliminar -->
     <script src="https://cdn-jgomezc145.github.io/centrales/bases_de_informacion/entire/js/breakcodes/principal-0134.js"></script>
 </body>
